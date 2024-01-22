@@ -83,7 +83,7 @@ if(s==r){
     localStorage.setItem('score',JSON.stringify(score));
 }
 else if(r==0){
-    document.querySelector('h2').innerHTML='Your Choice : Scissor <br><br> Computer Choice : Stone';
+    document.querySelector('h2').innerHTML='Your Choice : Scissor <br><br> Computer Choice : Rock';
     document.querySelector('p').innerHTML='You Loose';
     score.lost+=1;
     localStorage.setItem('score',JSON.stringify(score));
