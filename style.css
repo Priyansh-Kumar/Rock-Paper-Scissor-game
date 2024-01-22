@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+
+}
+
+.main{
+    height: 100vh;
+    background-color:#1d1e22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: aquamarine;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 420px;
+    width: 550px;
+    flex-basis: 80%;
+    border-radius: 10px;
+    background-color:#393f4d;
+    box-shadow: 3px 3px 3px 20px;
+}
+.all-button{
+    display: flex;
+    height:60px;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius:10px;
+    
+}
+.btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+   
+}
+.text-area{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: medium;
+   height: 230px;
+   width:90%;
+    border:2px solid;
+    border-radius:10px;
+}
+.reset{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color:chartreuse;
+}
+@media screen and (width<=267px) {
+    .btn{
+        width:70px;
+        height:30px;
+        text-transform: none;
+    }
+    
+}
+@media screen and (width<=795px) {
+    .text-area{
+       margin: 0px;
+       width: 100%;
+    }
+    
+}
+@media screen and (width<=175px) {
+    .text-area{
+      margin-top: 30px;
+    }
+    
+}
+@media screen and (width<=488px) {
+    .text-area{
+        font-size:smaller;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (width<=413px) {
+    .text-area{
+        font-size:x-small;
+        padding-top: 50px;
+    }
+}
+@media screen and (width<=317px) {
+    .text-area{
+        font-size:xx-small;
+    }
+}
+@media screen and (width<=163px) {
+    .text-area{
+        font-size:8px;
+    }
+}
+
+
+@media screen and (width<=170px) {
+    .text-area{
+        height:200px ;
+        font-size:6px ;
+    }
+    .btn{
+        width:50px;
+        height:20px;
+       
+    }
+    
+}
+
+@media screen and (width<=103px) {
+    .text-area{
+        height:150px ;
+        font-size:4px ;
+    }
+    
+    
+}
